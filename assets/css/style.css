@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow:100.200,300,400,500,600,700,800|Bungee+Inline:100,200,300,400,500,600,700,800');
+
+/*--------------navigation-bar------------------------*/
+
+#side-navigation {
+    height: auto;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    padding-top: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/*--------------navigation-bar-end------------------------*/
+
+/*--------------Headings----------------------------------*/
+.header,
+h2 {
+    color: #f5efd5;
+}
+
+.the-band-heading h2{
+    color: green;
+}
+
+.gallery-heading h2 {
+    color: red;
+}
+
+.gallery-heading h2{
+    color: red;
+}
+
+.hire-us-header h2{
+    color: yellow;
+}
+
+/*------------------ headings end---------------------------*/
+
+header {
+    background: url(../images/monkees-large.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 1000;
+    height: 100vh;
+    width: 100vw;
+}
+
+a {
+    color: #ff9b00;
+    text-decoration: none;
+}
+
+.logo {
+    font-family: "Bungee+Inline";
+}
+
+.logo,
+h1 {
+    font-size: 90px;
+    color:red;
+}
+
+
+
+.intro-monkees {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    float: left;
+    color: #fffaf0;
+}
+
+p,
+.intro {
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+
+
+/*---------------https://www.youtube.com/watch?v=C1B1Fx3XKOg&t=92s-------------*/
+
+.thumbnail img {
+    width: 300px;
+    height: 300px;
+    filter: grayscale(100%);
+    transition: transform 2s;
+}
+
+.thumbnail img:hover {
+    filter: grayscale(0);
+   transform: scale(1:2);
+
+}
+
+.hire-us-paragraph p{
+    
+}
+
+/*--------------media-queries------------------------*/
+
+@media only screen and (min-width: 992px) {
+    .sub-header,
+    h2 {
+        font-size: 40px;
+        padding-left: 60px;
+        float: left;
+    }
+}
+
+
+.container-bio p{
+    
+}
+.container-bio img{
+    
+}
+
+/*------------ image gallery--------------*/
+
+.image-gallery-images img{
+    
+}
+
+/*------------ image gallery end--------------*/
+
+/*----------------hire us----------------------*/
+
+.hire-us-paragraph p{
+    color: orange;
+}
+
+/*----------------------bg-colors------------------*/
+.bio-bg-color{
+ background-color:orange no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 1000;
+    height: 100vh;
+    width: 100vw;   
+}
+
+.gallery-bg-color{
+    background-color: green;
+}
+
+.audio-bg-color{
+    background-color: purple;
+}
+
+.hire-us-bg-color{
+    background-color: blue;
+}
