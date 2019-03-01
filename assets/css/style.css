@@ -102,18 +102,6 @@ p,
 
 /*---------------https://www.youtube.com/watch?v=C1B1Fx3XKOg&t=92s-------------*/
 
-.thumbnail img {
-    width: 300px;
-    height: 300px;
-    filter: grayscale(100%);
-    transition: transform 2s;
-}
-
-.thumbnail img:hover {
-    filter: grayscale(0);
-    transform: scale(1:2);
-
-}
 .thumbnail {
     display: block;
     padding: 4px;
@@ -126,6 +114,36 @@ p,
     -o-transition: border .2s ease-in-out;
     transition: border .2s ease-in-out;
 }
+
+
+
+.thumbnail img {
+    width: 300px;
+    height: 300px;
+    filter: grayscale(100%);
+    transition: transform 2s;
+}
+
+.thumbnail img:hover {
+    filter: grayscale(0);
+    transform: scale(1:2);
+    border-color: #f07f03;
+}
+
+.img-thumbnail {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: transparent;
+    border: 5px solid #797575;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
 
 .hire-us-paragraph p {}
 
@@ -140,16 +158,22 @@ p,
     }
 }
 
-
+/*----------------------------------------------bio----------------------------*/
 .container-bio p {}
 
 .container-bio img {}
+
+.img-circle {
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*------------ image gallery--------------*/
 
 .image-gallery-images img {}
 
-/*------------ image gallery end--------------*/
+
 
 /*----------------hire us----------------------*/
 
