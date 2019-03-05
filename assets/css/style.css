@@ -35,6 +35,10 @@
     letter-spacing: 5px;
 }
 
+#intro {
+    padding-top: 30px;
+}
+
 /*--------------navigation-bar-end------------------------*/
 
 /*--------------Headings----------------------------------*/
@@ -204,6 +208,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 20px;
+    width: 300px;
 }
 
 .bio-text p {
@@ -275,6 +280,8 @@ header {
     padding-top: 25px;
     padding-bottom: 25px;
     color: aliceblue;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
@@ -285,7 +292,13 @@ header {
     margin: 0 0 10px;
     color: aliceblue;
     letter-spacing: 2px;
-    font-weight: 300;
+    font-weight: 600;
     padding-bottom: 20px;
     padding-top: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.form-attributes{
+    padding-left: 20px;
+    padding-right:20px;
 }
