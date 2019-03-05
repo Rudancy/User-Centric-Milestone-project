@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow:100.200,300,400,500,600,700,800|Bungee+Inline:100,200,300,400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Bungee+Inline');
 
 /*--------------navigation-bar------------------------*/
 
@@ -39,13 +39,28 @@
 
 /*--------------Headings----------------------------------*/
 
-.sub-header,
-h2 {
-    color: #f5efd5;
-    padding-left: 16px;
-    padding-bottom: 7px;
-    padding-top: 15px;
+.video-header h2 {
+    text-align: center font-size:50px;
+}
 
+.sub-header {
+    color: #f5efd5;
+    text-align: center;
+    padding-bottom: 15px;
+
+
+}
+
+.video-player-heading h2 {
+    text-align: center;
+    font-size: 45px;
+    color: aliceblue;
+}
+
+}
+
+.container-header h1 {
+    text-align: center;
 }
 
 .the-band-heading h2 {}
@@ -68,11 +83,30 @@ h2 {
 
 
 .hire-us-header h2 {
-    color: yellow;
+    color: aliceblue;
+    text-align: center;
+    font-size: 54px;
+    letter-spacing: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.audio-video-heading h2 {
+    text-align: center;
+    font-size: 45px;
+    padding-top: 16px;
+    padding-bottom: 35px;
+    color: aliceblue;
 }
 
 .song-headers h3 {
     text-align: center;
+    color: cornsilk;
+}
+
+.song-paragraph p {
+    letter-spacing: 2px;
+    color: aliceblue;
 }
 
 /*------------------------------------------------------header-------------------------------*/
@@ -83,7 +117,7 @@ a {
 }
 
 .logo {
-    font-family: "Bungee+Inline";
+    font-family: 'Archivo+Narrow', sans-serif;
 }
 
 .logo,
@@ -91,13 +125,18 @@ h1 {
     font-size: 70px;
     color: #ff9800;
     padding-top: 30px;
+    padding-bottom: 10px;
+    letter-spacing: 10px;
+    text-align: center;
 }
 
-p,
-.intro {
+
+.intro p {
     color: white;
     padding-left: 15px;
-    padding-right: 50px;
+    padding-right: 15px;
+    text-align: center;
+    font-family: 'Bungee+Inline', sans-serif;
 }
 
 /*-------------------------------------------------------------------------------------------gallery-------------*/
@@ -153,26 +192,25 @@ p,
 
 /*----------------------------------------------bio----------------------------*/
 
-.container-bio p {}
+.container-bio h3 {
+    text-align: center;
 
-.container-bio img {}
+}
+
+
 
 .img-circle {
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 20px;
 }
 
-
-
-
-
-
-/*----------------hire us----------------------*/
-
-.hire-us-paragraph p {
-    color: orange;
+.bio-text p {
+    letter-spacing: 2px;
+    padding-bottom: 12px;
 }
+
 
 /*----------------------bg-colors/images------------------*/
 
@@ -196,7 +234,14 @@ p,
 }
 
 .hire-us-bg-color {
-    background-color: blue;
+    background: url(../images/aaron-paul-213841-unsplash.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 1000;
+    height: 100vh;
+    width: 100vw;
 }
 
 header {
@@ -217,8 +262,30 @@ header {
     padding-left: 35px;
 
 }
+
 /*----------------------------------------------video---------------------------*/
-.video-player{
-        margin-left: 25px;
-        padding-bottom: 15px;
+
+.video-player {
+    text-align: center;
+}
+
+.video-paragraph p {
+    font-family: 'Bungee+Inline', sans-serif;
+    font-weight: 800;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: aliceblue;
+}
+
+
+
+/*----------------hire us--------------------------------------------------------*/
+
+.hire-us-paragraph p {
+    margin: 0 0 10px;
+    color: aliceblue;
+    letter-spacing: 2px;
+    font-weight: 300;
+    padding-bottom: 20px;
+    padding-top: 15px;
 }
