@@ -86,6 +86,8 @@
 }
 
 
+
+
 .hire-us-header h2 {
     color: aliceblue;
     text-align: center;
@@ -214,6 +216,10 @@ h1 {
 .bio-text p {
     letter-spacing: 2px;
     padding-bottom: 12px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 
@@ -298,7 +304,26 @@ header {
     padding-right: 20px;
     padding-left: 20px;
 }
-.form-attributes{
+
+.form-attributes {
     padding-left: 20px;
-    padding-right:20px;
+    padding-right: 20px;
+}
+/*----------------------------------------footer-----------------------*/
+footer{
+        background-color: #0a0a0a;
+        padding-top: 15px;
+}
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+    text-align: center;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 50px;
+    padding-left: 50px;
+    height: 20px;
 }
