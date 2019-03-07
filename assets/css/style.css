@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Bungee+Inline');
 
+body p {
+    letter-spacing: 2px;
+    font-family: 'Bungee+Inline', sans-serif;
+    font-weight: 500;
+}
+
 /*--------------navigation-bar------------------------*/
 
 .btn-default {
@@ -44,7 +50,9 @@
 /*--------------Headings----------------------------------*/
 
 .video-header h2 {
-    text-align: center font-size:50px;
+    text-align: center;
+    font-size: 50px;
+
 }
 
 .sub-header {
@@ -61,7 +69,7 @@
     color: aliceblue;
 }
 
-}
+
 
 .container-header h1 {
     text-align: center;
@@ -70,6 +78,7 @@
 .the-band-heading h2 {}
 
 .gallery-heading h2 {
+    font-family: 'Archivo+Narrow', sans-serif;
     color: black;
     text-align: center;
     letter-spacing: 5px;
@@ -85,7 +94,9 @@
     font-size: -webkit-xxx-large;
 }
 
-
+.container-bio h3 {
+    text-align: center;
+}
 
 
 .hire-us-header h2 {
@@ -108,12 +119,10 @@
 .song-headers h3 {
     text-align: center;
     color: cornsilk;
+    margin-bottom: 25px;
 }
 
-.song-paragraph p {
-    letter-spacing: 2px;
-    color: aliceblue;
-}
+
 
 /*------------------------------------------------------header-------------------------------*/
 
@@ -143,6 +152,7 @@ h1 {
     padding-right: 15px;
     text-align: center;
     font-family: 'Bungee+Inline', sans-serif;
+
 }
 
 /*-------------------------------------------------------------------------------------------gallery-------------*/
@@ -173,7 +183,7 @@ h1 {
 
 .thumbnail img:hover {
     filter: grayscale(0);
-    transform: scale(1:2);
+
     border-color: #f07f03;
 }
 
@@ -198,13 +208,6 @@ h1 {
 
 /*----------------------------------------------bio----------------------------*/
 
-.container-bio h3 {
-    text-align: center;
-
-}
-
-
-
 .img-circle {
     border-radius: 50%;
     margin-left: auto;
@@ -212,25 +215,31 @@ h1 {
     padding-bottom: 20px;
     width: 300px;
 }
-.bio-text-dj{
-    
+
+.bio-text-dj {
+    margin-top: 57px;
 }
 
-.bio-text-pt{
-    
+.bio-text-pt {
+    margin-top: 57px;
+
 }
 
-.bio-text-md{
-    
+.bio-text-md {
+    margin-top: 57px;
+    margin-right: 70px;
+    margin-left: 20px;
 }
 
-.bio-text-mn{
-    
+.bio-text-mn {
+    margin-top: 57px;
+    margin-right: 70px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
-.bio-text p {
-    
-}
+
+.bio-text p {}
 
 
 /*----------------------bg-colors/images------------------*/
@@ -261,19 +270,20 @@ h1 {
     -o-background-size: cover;
     background-size: cover;
     z-index: 1000;
-    height: 100vh;
     width: 100vw;
+    height: 100vh;
 }
 
-header {
+.header-bg-color {
     background: url(../images/monkees-large.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     z-index: 1000;
-    height: 100vh;
     width: 100vw;
+    height: 100vh;
+
 }
 
 /*---------------------------------------------audio----------------------------*/
@@ -281,6 +291,14 @@ header {
 .audio-player {
     padding-bottom: 20px;
     padding-left: 35px;
+
+}
+
+.song-paragraph p {
+    letter-spacing: 2px;
+    color: aliceblue;
+    margin-bottom: 25px;
+    margin-top: 25px;
 
 }
 
@@ -319,11 +337,14 @@ header {
     padding-left: 20px;
     padding-right: 20px;
 }
+
 /*----------------------------------------footer-----------------------*/
-footer{
-        background-color: #0a0a0a;
-        padding-top: 15px;
+
+footer {
+    background-color: #0a0a0a;
+    padding-top: 15px;
 }
+
 .list-inline {
     padding-left: 0;
     margin-left: -5px;
@@ -333,7 +354,28 @@ footer{
 
 .list-inline>li {
     display: inline-block;
-    padding-right: 50px;
-    padding-left: 50px;
+    display: inline-block;
+    padding-right: 35px;
+    padding-left: 35px;
     height: 20px;
+}
+
+.btn btn-primary {}
+
+
+
+@media(min-width:453px) {
+    .header {
+
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+@media only screen and (min-width: 453px) {
+    .hire-us-bg-color {
+
+        width: 100vw;
+        height: 100vh;
+    }
 }
