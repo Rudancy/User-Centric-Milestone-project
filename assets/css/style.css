@@ -4,6 +4,7 @@ body p {
     letter-spacing: 2px;
     font-family: 'Bungee+Inline', sans-serif;
     font-weight: 600;
+    font-size: 15px;
 }
 
 .bio-bg-color p {
@@ -49,6 +50,10 @@ body p {
     letter-spacing: 5px;
 }
 
+.dropdown-content a:hover {
+    background-color: white;
+}
+
 #intro {
     padding-top: 30px;
 }
@@ -56,6 +61,16 @@ body p {
 /*--------------navigation-bar-end------------------------*/
 
 /*--------------Headings----------------------------------*/
+
+h1,
+h2,
+h3,
+h4 {
+    color: #ff9800;
+    font-weight: 900;
+}
+
+
 
 .video-header h2 {
     text-align: center;
@@ -87,11 +102,11 @@ body p {
     text-align: center;
 }
 
-.the-band-heading h2 {}
+
 
 .gallery-heading h2 {
     font-family: 'Archivo+Narrow', sans-serif;
-    color: black;
+
     text-align: center;
     letter-spacing: 5px;
     padding-bottom: 20px;
@@ -101,11 +116,12 @@ body p {
 }
 
 .the-band-heading h2 {
-    color: black;
+
     text-align: center;
     letter-spacing: 5px;
     padding-bottom: 20px;
     font-size: -webkit-xxx-large;
+    padding-top: 30px;
 }
 
 .container-bio h3 {
@@ -114,12 +130,12 @@ body p {
 
 
 .hire-us-header h2 {
-    color: aliceblue;
+
     text-align: center;
     font-size: 54px;
     letter-spacing: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .audio-video-heading h2 {
@@ -127,12 +143,12 @@ body p {
     font-size: 45px;
     padding-top: 16px;
     padding-bottom: 35px;
-    color: aliceblue;
+
 }
 
 .song-headers h3 {
     text-align: center;
-    color: cornsilk;
+
     margin-bottom: 25px;
 }
 
@@ -184,8 +200,12 @@ h1 {
     -webkit-transition: border .2s ease-in-out;
     -o-transition: border .2s ease-in-out;
     transition: border .2s ease-in-out;
+    margin-left: 20px;
 }
 
+.image-thumbnail {
+    text-align: center;
+}
 
 
 .thumbnail img {
@@ -262,7 +282,7 @@ h1 {
 }
 
 .audio-bg-color {
-    background-color: #8f9186;
+    background-color: #c34823;
 }
 
 .hire-us-bg-color {
@@ -273,7 +293,7 @@ h1 {
     background-size: cover;
     z-index: 1000;
     width: 100vw;
-    height: 100vh;
+
 }
 
 .header-bg-color {
@@ -323,10 +343,11 @@ h1 {
     color: aliceblue;
     margin-right: 15px;
     margin-left: 15px;
+    margin-bottom: 30px;
 }
 
 video {
-    width: 75% !important;
+    width: 60% !important;
     height: auto !important;
 }
 
@@ -344,9 +365,16 @@ video {
     padding-left: 20px;
 }
 
+.hire-us-paragraph-lower {
+    padding-bottom: 30px;
+}
+
+
 .form-attributes {
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 /*--------------------------------------------------------------------*/
@@ -360,27 +388,50 @@ video {
     color: #fff;
     background-color: #ff9800;
     border-color: #ff9800;
+}
 
 
-    /*----------------------------------------footer-----------------------*/
-    footer {
-        background-color: #0a0a0a;
+/*----------------------------------------footer-----------------------*/
+
+.footer-bg-color {
+    background-color: black;
+}
+
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+    text-align: center;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 35px;
+    padding-left: 35px;
+    height: 20px;
+}
+
+
+@media(max-width:767px) {}
+
+@media(min-width:713px) {
+    .logo,
+    h1 {
+        margin-top: 50px;
+    }
+    .sub-header {
         padding-top: 15px;
+        margin-bottom: 15px;
     }
+    .form-attributes {
+        padding-bottom: 70px;
+    }
+    .intro p{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
 
-    .list-inline {
-        padding-left: 0;
-        margin-left: -5px;
-        list-style: none;
-        text-align: center;
-        text-align: center;
-        background-color: black;
-    }
+@media(min-width:992px) {}
 
-    .list-inline>li {
-        display: inline-block;
-        display: inline-block;
-        padding-right: 35px;
-        padding-left: 35px;
-        height: 20px;
-    }
+@media(min-width:1200px) {}
