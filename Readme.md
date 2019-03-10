@@ -1,12 +1,8 @@
 The Monkees
 
-This project has the intention of show casing "The Monkees". It will do this by having several sections. The first will be an introduction to The Monkees, then followed by a 
-bio, which will tell the user about the members of the band. This will then lead onto a gallery giving the user an opportunity to see the the band and get a feeling of
-the sort of people they are. next is a audio/video section. this gives the user an opportunity to experience the great music of the band. this will be followed by
-a form that allows the user to hire the band. Finally at the end will be links to their social media platforms.
+This project as the intention of show casing "The Monkees". It will do this by having several sections. The first will be an introduction to The Monkees, then followed by a bio, which will tell the user about the members of the band. This will then lead onto a gallery giving the user an opportunity to see the the band and get a feeling of the sort of people they are. next is a audio/video section. this gives the user an opportunity to experience the great music of the band. this will be followed by a form that allows the user to hire the band. Finally at the end will be links to their social media platforms.
 
-All these combined will allow the user to experience the full spectrum of the band, visual, hearing and through the form and social media an opportunity to meet,
-and see the band live. Also to increase the bands online coverage that will help the band spresd its name further a field thus increasing its revenues.
+All these combined will allow the user to experience the full spectrum of the band, visual, hearing and through the form and social media an opportunity to meet and see the band live. Also to increase the bands online coverage that will help the band spresd its name further a field thus increasing its revenues.
 
 
 
@@ -32,8 +28,8 @@ The form- hire me section, is quite bright and contrasts nthe audio/video so cat
 
 
 
-future features, 
-would include a upcoming gig list
+future features 
+I would include a upcoming gig list
 a past gig list with anchors to youtube allowing the user to see previous gigs
 
 Technologies
@@ -55,17 +51,15 @@ i did this by reducing the padding within the navbar and thus making the navbar 
 Deployment
 
 This project was deployed on GitHub. it was updated with each new change. This took me a while to get to grips with as i did not understand github at the start. however
-after i got to grips with it i have made regular commits and pushes. The website can also be accessed through the following address https://milestone-project-user-centric-tomwheatley.c9users.io/index.html
+after i got to grips with it i have made regular commits and pushes. The website can also be accessed through the following address 
 
-
-
-
-credits
+Credits
 
 these go to unsplash for some of the photos used,
 netninja for general guidance
 wikipedia for information on The Monkees 
-bio information aquired from wiki https://en.wikipedia.org/wiki/Micky_Dolenz
+bio information aquired from wiki 
+https://en.wikipedia.org/wiki/Micky_Dolenz
 https://en.wikipedia.org/wiki/Peter_Tork
 https://en.wikipedia.org/wiki/Michael_Nesmith
 https://en.wikipedia.org/wiki/Davy_Jones_(musician)
@@ -82,6 +76,6 @@ https://www.youtube.com/watch?v=C1B1Fx3XKOg&t=92s
 
 A lot of credit also has to go to the friendly, patient users of slack, who helped me with there support and advice.
 
-and also to the tutors of the code institute, thank you for all your help.
+ Also to the tutors of the code institute, thank you for all your help.
 
 I recieved inspiration from the example project.
