@@ -198,9 +198,7 @@ h1 {
     font-family: 'Bungee+Inline', sans-serif;
     padding-bottom: 15px;
 
-}
-
-/*-------------------------------------------------------------------------------------------gallery-------------*/
+}/*-------------------------------------------------------------------------------------------gallery-------------*/
 
 /*---------------https://www.youtube.com/watch?v=C1B1Fx3XKOg&t=92s-------------*/
 
@@ -220,6 +218,7 @@ h1 {
     -webkit-transition: border .2s ease-in-out;
     -o-transition: border .2s ease-in-out;
     transition: border .2s ease-in-out;
+    text-align: center;
 
 }
 
@@ -442,6 +441,8 @@ video {
     -moz-osx-font-smoothing: grayscale;
     font-size: 30px;
 }
+
+
 
 @media(min-width:400px) {
     .intro p {
