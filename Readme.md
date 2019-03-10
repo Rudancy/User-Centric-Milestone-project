@@ -41,20 +41,24 @@ Technologies
 html
 css
 bootstrap 3
+jquery
 
 Testing
 
 I have tested extensively the different aspects of the website on different browser sizes and browser types. I have used https://validator.w3.org/nu/#cl382c109 to validate 
 my code. I have used the navbar and asked other people to use the site and get feed back. you can click on the audio and video and they play as they should.
-if you click on the pictures they highlight in colour. If you fill the form in in and do not put an email address in it errors.
+if you click on the pictures they highlight in colour. If you fill the form in in and do not put an email address in it errors. I tested the website using devtools on
+chrome. I came across many interesting bugs for example the form at the bottom of the page spilt over onto the footer, i solved this through research and tutor help eventually
+resolving this by taking the height property out of the css. I came across a bug whereby the navbar over-spilt from the browser when the browser was in tablet mode,
+i did this by reducing the padding within the navbar and thus making the navbar smaller. 
 
 Deployment
 
 This project was deployed on GitHub. it was updated with each new change. This took me a while to get to grips with as i did not understand github at the start. however
-after i got to grips with it i have made regular commits and pushes.
+after i got to grips with it i have made regular commits and pushes. The website can also be accessed through the following address https://milestone-project-user-centric-tomwheatley.c9users.io/index.html
 
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+
+
 
 credits
 
@@ -75,5 +79,9 @@ https://en.wikipedia.org/wiki/(I%27m_Not_Your)_Steppin%27_Stone
 
 gallery idea
 https://www.youtube.com/watch?v=C1B1Fx3XKOg&t=92s
+
+A lot of credit also has to go to the friendly, patient users of slack, who helped me with there support and advice.
+
+and also to the tutors of the code institute, thank you for all your help.
 
 I recieved inspiration from the example project.
