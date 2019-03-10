@@ -34,10 +34,10 @@ a past gig list with anchors to youtube allowing the user to see previous gigs
 
 Technologies
 
-html
-css
-bootstrap 3
-jquery
+1. html
+2. css
+3. bootstrap 3
+4. jquery
 
 Testing
 
