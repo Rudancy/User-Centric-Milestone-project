@@ -137,6 +137,8 @@ h4 {
 }
 
 
+
+
 .hire-us-header h2 {
 
     text-align: center;
@@ -175,7 +177,8 @@ a {
 
 .logo,
 h1 {
-    font-size: 70px;
+    font-size: 45px;
+
     color: #ff9800;
     padding-top: 30px;
     padding-bottom: 10px;
@@ -190,12 +193,18 @@ h1 {
     padding-right: 15px;
     text-align: center;
     font-family: 'Bungee+Inline', sans-serif;
+    padding-bottom: 15px;
 
 }
 
 /*-------------------------------------------------------------------------------------------gallery-------------*/
 
 /*---------------https://www.youtube.com/watch?v=C1B1Fx3XKOg&t=92s-------------*/
+
+.image-gallery-images-lower {
+    margin-left: 15px;
+    margin-right: 11px;
+}
 
 .thumbnail {
     display: block;
@@ -208,7 +217,7 @@ h1 {
     -webkit-transition: border .2s ease-in-out;
     -o-transition: border .2s ease-in-out;
     transition: border .2s ease-in-out;
-    margin-left: 20px;
+    
 }
 
 .image-thumbnail {
@@ -258,6 +267,13 @@ h1 {
     width: 300px;
 }
 
+.container-bio img-thumbnail {
+    max-width: 260px margin-left:10px;
+    margin-right: 10px;
+}
+
+
+
 .bio-text-dj {}
 
 .bio-text-pt {}
@@ -285,6 +301,7 @@ h1 {
     -o-background-size: cover;
     background-size: cover;
     z-index: 1000;
+    padding-bottom: 30px;
 
 
 }
@@ -312,7 +329,7 @@ h1 {
     background-size: cover;
     z-index: 1000;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
 
 }
 
@@ -320,7 +337,7 @@ h1 {
 
 .audio-player {
     padding-bottom: 20px;
-    padding-left: 35px;
+    text-align: center;
 
 }
 
@@ -333,9 +350,7 @@ h1 {
     margin-left: 15px;
 }
 
-.audio-player {
-    text-align: center;
-}
+
 
 /*----------------------------------------------video---------------------------*/
 
@@ -373,9 +388,6 @@ video {
     padding-left: 20px;
 }
 
-.hire-us-paragraph-lower {
-    padding-bottom: 30px;
-}
 
 
 .form-attributes {
@@ -403,6 +415,7 @@ video {
 
 .footer-bg-color {
     background-color: black;
+    height: 100%;
 }
 
 .list-inline {
@@ -419,14 +432,36 @@ video {
     height: 20px;
 }
 
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 25px;
+}
 
-@media(max-width:767px) {}
+@media(min-width:400px) {
+    .intro p {
+        font-size: 20px;
+        padding-top: 45px;
+    }
+}
 
 @media(min-width:713px) {
+
+    .image-gallery-images-lower {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+
     .logo,
     h1 {
         margin-top: 50px;
         font-size: 90px;
+
     }
     .sub-header {
         padding-top: 15px;
@@ -442,6 +477,7 @@ video {
         margin-left: 30px;
         margin-right: 30px;
         font-size: 20px;
+        margin-bottom: 100px;
     }
 }
 
